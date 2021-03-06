@@ -11,7 +11,7 @@ sys.path.insert(0, os.path.dirname(__file__))
 
 from aqt.qt import *
 from anki.hooks import wrap
-from anki.utils import json
+import json
 
 
 # insert linebreak after regex match
